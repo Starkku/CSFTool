@@ -2,6 +2,8 @@
 
 Command line tool for converting text files to string table files used by Westwood Studios' Command & Conquer games, and vice-versa.
 
+Download for latest build (automatically generated from latest commit in `master` branch) can be found [here](https://github.com/Starkku/CSFTool/releases/tag/latest).
+
 Accepted parameters:
 ```
 -h, -?, --help                  Show help.

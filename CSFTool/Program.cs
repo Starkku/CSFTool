@@ -29,7 +29,7 @@ namespace CSFTool
                 { "h|?|help", "Show help.", v => settings.ShowHelp = true},
                 { "i|infile=", "Input string table file.", v => settings.FilenameInput = v},
                 { "o|outfile=", "Output string table file.", v => settings.FilenameOutput = v},
-                { "t|textfile=", "Input/output text file name. If not specified, defaults to name of input string table with extension .txt.", v => settings.FilenameText = v},
+                { "t|textfile=", "Input / output text file name. If not specified, defaults to name of input string table with extension .txt.", v => settings.FilenameText = v},
                 { "a|addlines", "Add lines from text file to string table as strings. Settings this sets -e to false.", v => settings.AddStrings = true},
                 { "e|exportlines", "Export strings from string table to lines in a text file.", v => settings.ExportStrings = true},
                 { "l=|language-override", "Set to an integer to override saved string table language ID. Valid values range from 0 to 9 and special value of -1 (language independent).", (int v) => settings.LanguageIDOverride = v},
